@@ -14,9 +14,9 @@ export default function Header() {
             src={"https://links.papareact.com/f90"}
             width={120}
             height={40}
-            objectFit="contain"
             alt="amazon logo"
             className="cursor-pointer px-2"
+            style={{ objectFit: "contain" }}
           />
         </div>
         {/* Search */}
